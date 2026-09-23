@@ -1,0 +1,1 @@
+console.log('edited bashrc file for permanent change in Prompt String')
