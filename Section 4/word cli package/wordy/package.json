@@ -1,0 +1,19 @@
+{
+  "name": "wordy-cli-amit",
+  "version": "1.0.0",
+  "description": "A powerful CLI tool to count words and find specific word frequencies in any text file.",
+  "type": "module",
+  "bin": {
+    "wordy": "./index.js"
+  },
+  "keywords": [
+    "cli", 
+    "word-count", 
+    "wordy", 
+    "file-reader", 
+    "nodejs", 
+    "text-analysis"
+  ],
+  "author": "Amit Kumar",
+  "license": "MIT"
+}
