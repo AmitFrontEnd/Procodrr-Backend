@@ -20,7 +20,6 @@ class MyEmitter {
       this._events[eventName] = { eventHandlers: [eventHandler] };
       this._eventsCount++;
     }
-    this._events[eventName] = { eventHandlers: [eventHandler] };
     this._events[eventName]["once"] = true;
   }
   emit(eventName,...args) {
